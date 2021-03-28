@@ -1,0 +1,4 @@
+db.sqlite3
+erl_crash.dump
+venv
+dump.rdb 
