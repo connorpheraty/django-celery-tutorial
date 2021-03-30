@@ -11,13 +11,13 @@ def query_twitter_api():
 
     print("Query Initiating...")
     auth = tweepy.OAuthHandler(
-        CONSUMER_KEY,
-        CONSUMER_SECRET_KEY
+        "Y8tOO4cljDTzxxSA18LwEFqVs",
+        "PTH7ZgURuke4GzOhFXaIbwTRjlK1dSxaClBYALl5WriEm8Nhdo"
     )
 
     auth.set_access_token(
-        KEY,
-        SECRET_KEY
+        "1140717029957222401-iL3Xj9yhQkJksyCOopMhI158dRDqpT",
+        "2pxAMq7mk3UoZiSUa7sQAwscGjkAOw2gtL3MOPD6ASFLQ"
     )
 
     api = tweepy.API(auth)
